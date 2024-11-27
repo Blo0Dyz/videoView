@@ -1,0 +1,191 @@
+h2 {
+  font-family: Roboto, Arial;
+}
+
+
+p {
+    font-family: Roboto, Arial;
+}
+
+.settings-op {
+  color: black;
+  padding-top: 50px;
+  margin-left: 20px;
+}
+.account-op {
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: left;
+  margin-bottom: 0;
+
+  color: black;
+  height: 40px;
+  width: 300px;
+
+  transition: 0.4s;
+}
+.account-op:hover {
+  cursor: pointer;
+  background-color: rgb(240, 240, 240);
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.downloads-op {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: left;
+
+  color: black;
+  height: 40px;
+  width: 300px;
+
+  transition: 0.4s;
+}
+.downloads-op:hover {
+  cursor: pointer;
+  background-color: rgb(240, 240, 240);
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.language-op {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: left;
+
+  color: black;
+  height: 40px;
+  width: 300px;
+
+  transition: 0.4s;
+}
+.language-op:hover {
+  cursor: pointer;
+  background-color: rgb(240, 240, 240);
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.system-op {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: left;
+
+  color: black;
+  height: 40px;
+  width: 300px;
+
+  transition: 0.4s;
+}
+.system-op:hover {
+  cursor: pointer;
+  background-color: rgb(240, 240, 240);
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.style-op {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: left;
+
+  color: black;
+  height: 40px;
+  width: 300px;
+
+  transition: 0.4s;
+}
+.style-op:hover {
+  cursor: pointer;
+  background-color: rgb(240, 240, 240);
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.help-op {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: left;
+
+  color: black;
+  height: 40px;
+  width: 300px;
+
+  transition: 0.4s;
+}
+.help-op:hover {
+  cursor: pointer;
+  background-color: rgb(240, 240, 240);
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.about-op {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: left;
+
+  color: black;
+  height: 40px;
+  width: 300px;
+
+  transition: 0.4s;
+}
+.about-op:hover {
+  cursor: pointer;
+  background-color: rgb(240, 240, 240);
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+header {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(231, 231, 231);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.toggleSidebar {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+
+    margin-left: 300px;
+    padding: 10px 20px;
+    font-size: 16px;
+
+    transition: 0.4s;
+  }
+  .toggleSidebar:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.26);
+    border-radius: 20px;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -300px; /* Oculta a aba lateral fora da tela */
+    width: 300px;
+    height: 100%;
+    
+
+    background-color: #ffffff;
+    color: white;
+    overflow-x: hidden;
+    transition: 0.3s;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .sidebar.open {
+    left: 0; /* Exibe a aba lateral */
+  }
+  .sidebar.close {
+    left: -250px;
+  }
+
+  .sidebar h2 {
+    margin-top: 0;
+  }

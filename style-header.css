@@ -1,0 +1,95 @@
+.header-section{
+    display: flex;
+    align-items: center;
+    height: 60px;
+
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(184, 184, 184);
+}
+.head-left {
+    display: flex;
+    flex: 1;
+    margin-left: 40px;
+}
+.head-middle {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-right: 300px;
+}
+.head-right{
+    display: flex;
+    margin-right: 40px;
+}
+.searchbox {
+    padding-left: 20px;
+    height: 40px;
+    width: 300px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    font-size: 17px;
+    box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+.searchbox::placeholder {
+    font-family: Roboto;
+    font-size: 17px;
+}
+.search-button {
+    margin-left: -30px;
+    height: 44px;
+    width: 60px;
+    border-end-end-radius: 30px;
+    border-top-right-radius: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    
+}
+.search-button:hover {
+    cursor: pointer;
+    box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgb(247, 247, 247);
+}
+.mic-button {
+    background-color: rgb(240, 240, 240);
+    margin-left: 10px;
+    border-radius: 70px;
+    height: 40px;
+    width: 40px;
+    border: none;
+}
+.mic-button:hover {
+    cursor: pointer;
+    box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgb(247, 247, 247);
+}
+.more-button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.music-button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    margin-right: 10px;
+}
+.music-button:hover {
+    cursor: pointer;
+}
+.channel-button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    margin-right: 0px;
+}
+.channel-button:hover {
+    cursor: pointer;
+}

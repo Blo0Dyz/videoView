@@ -1,0 +1,207 @@
+.video-preview{
+    display: inline-block;
+    margin-right: 20px;
+    transition: background-color 0.5s;
+    transition: box-shadow 0.5s;
+    transition: border-radius 0.1s;
+}
+.video-preview:hover {
+    background-color: rgb(252, 252, 252);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.thumb {
+    width: 100%;
+    border-radius: 15px;
+}
+.thumb-info {
+    position: relative;
+}
+.thumb-time {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+
+    font-weight: 500;
+    
+}
+.video-info {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.video-about {
+    display: inline-block;
+    
+}
+.video-title {
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 451px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.video-author, .video-insghts {
+    font-size: 15px;
+    color: rgb(96, 96, 96); 
+}
+.video-author {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.video-insghts {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+
+    position: fixed;
+    background-color: rgb(228, 228, 228);
+    top: 61px;
+    right: 0;
+    left: 0;
+    z-index: 100;
+
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.1);
+
+}
+
+.home-option {
+    height: 30px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+
+    margin-left: 60px;
+    transition: box-shadow 0.4s;
+    transition: width 0.4s;
+    transition: background-color 0.4s;
+}
+.home-option:hover {
+    cursor: pointer;
+    background-color: rgb(236, 236, 236);
+    border-radius: 30px;
+
+    width: 302px;
+
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.08);
+}
+.video-option {
+    height: 30px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+
+    margin-left: 60px;
+    transition: box-shadow 0.4s;
+    transition: width 0.4s;
+    transition: background-color 0.4s;
+}
+.video-option:hover {
+    cursor: pointer;
+    background-color: rgb(236, 236, 236);
+    border-radius: 30px;
+
+    width: 302px;
+
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.playlist-option {
+    height: 30px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+
+    margin-left: 60px;
+    transition: box-shadow 0.4s;
+    transition: width 0.4s;
+    transition: background-color 0.4s;
+}
+.playlist-option:hover {
+    cursor: pointer;
+    background-color: rgb(236, 236, 236);
+    border-radius: 30px;
+
+    width: 302px;
+
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.08);
+}
+.subscription-option {
+    height: 30px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+
+    margin-left: 60px;
+    transition: box-shadow 0.4s;
+    transition: width 0.4s;
+    transition: background-color 0.4s;
+}
+.subscription-option:hover {
+    cursor: pointer;
+    background-color: rgb(236, 236, 236);
+    border-radius: 30px;
+
+    width: 302px;
+
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.08);
+}
+.settings-option {
+    height: 30px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+
+    margin-right: 60px;
+    margin-left: 60px;
+    transition: box-shadow 0.4s;
+    transition: width 0.4s;
+    transition: background-color 0.4s;
+}
+.settings-option:hover {
+    cursor: pointer;
+    background-color: rgb(236, 236, 236);
+    border-radius: 30px;
+
+    width: 302px;
+
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.08);
+}
+.bt {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    margin-top: 500px;
+    background-color: rgb(255, 255, 255);
+
+    position: static;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    z-index: 100;
+
+}
